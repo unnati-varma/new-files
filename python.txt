@@ -1,0 +1,58 @@
+Siddharth Kangle
+To
+Everyone
+9:45:28 PM
+SK
+numbers = []
+sum_numbers = 0
+
+while True:
+    num = input("Please enter a number: ")
+    
+    if num.isdigit():
+        if int(num) != 0:
+            numbers.append(int(num))
+            continue
+        else:
+            break
+            
+for i in range(len(numbers)):
+    sum_numbers += numbers[i]
+    
+print(f"Input: {numbers}")
+print(f"Sum = {sum_numbers}")
+print(f"Average = {sum_numbers / len(numbers)}")
+Nishant Atal
+To
+Everyone
+9:45:30 PM
+NA
+print("For exit please enter '0' ")
+c=0
+i=0
+print("Please enter a numbers-")
+while True:
+  b=int(input())
+  c=c+b
+  if b==0:
+    break
+  i+=1
+d=c/i
+print(f"Sum={c} and Average={d}")
+Anu
+To
+Everyone
+9:45:44 PM
+A
+inpNum = int(input("Enter your input"))
+avg=0
+sumOut=0
+i=0
+while(i<inpNum):
+    inp = int(input("Enter your input:"))
+    if(inp==0):
+        break
+    sumOut+=inp
+    i+=1
+avg = sumOut/inpNum
+print("sum of n numbers:",sumOut,"\nAverage of n numbers:",avg)
